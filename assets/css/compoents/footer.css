@@ -1,0 +1,104 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+
+  .footer-middle{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+
+  .footer-left,
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-logo {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  
+  .footer-logo span {
+    font-weight: normal;
+    font-size: 1.4rem;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 2rem;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+  }
+  
+  .footer-contacts {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer-contacts li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn {
+    padding: 0.8rem 2rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .btn-appointment {
+    background-color: #00bfa5;
+    color: #fff;
+  }
+  
+  .btn-question {
+    background-color: transparent;
+    color: #00bfa5;
+    border: 1px solid #00bfa5;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+
+    .footer-middle{
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
+  
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  }
+  

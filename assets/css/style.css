@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Medium.ttf');
+}
+
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+button:focus {
+    outline: none;
+    /* Remove the outline style */
+
+}
+
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+*{
+  font-family: Inter;
+  -webkit-tap-highlight-color:transparent; /* For iOS and some Android devices */
+  tap-highlight-color: transparent; 
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*----------------------reset code-----------------*/
+
+:root {
+    --shadow-Green: 0px 4px 16px 0px #0b896c43;
+    --shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+    --Green-Color:#00CC7B;
+    --Red-Color:#F25F5C;
+    --Dark-Color:#2e3a3d;
+    --btn-Radius:22px;
+    --btn-Padding:.7rem 2rem;
+    --black-text:#292929;
+}
+* {
+    box-sizing: border-box; /* Apply box-sizing to all elements */
+  }
+
+  .arabic-text{
+    text-align: end;
+  }
+
+  .change_text_color_green{
+    color: var(--Green-Color) !important;
+  }
+
+  .change_text_color_red{
+    color: var(--Red-Color) !important;
+
+  }
+
+.Transperent-brand-btn,
+.brand-background-btn {
+    font-weight: 600;
+    font-size: 1em;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Transperent-brand-btn {
+    color: var(--Green-Color);
+    background-color: transparent;
+}
+
+.brand-background-btn {
+    background-color: var(--Green-Color);
+    border-radius: var(--btn-Radius);
+    padding: var(--btn-Padding);
+}
+
+.anchor-with-img {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    gap: 1rem;
+}
+
+
+.social-media-links {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.social-link {
+    display: block;
+    margin: 5px 0;
+    background-color: #fff;
+    color: white;
+    padding: 10px;
+    border-radius: var(--btn-Radius);
+    box-shadow: var(--shadow);
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-link:hover {
+    background-color: #555;
+}
+
+/* Icons styles */
+.whatsapp { /* add WhatsApp specific styles */ }
+.instagram { /* add Instagram specific styles */ }
+.facebook { /* add Facebook specific styles */ }
