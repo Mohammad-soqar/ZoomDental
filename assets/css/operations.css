@@ -13,7 +13,7 @@ html {
 .operation-section__list {
 
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 3rem;
     justify-items: center;
 }
@@ -54,18 +54,7 @@ html {
 
 }
 
-.operation-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    align-items: center;
-    gap: 1rem;
-    border-radius: var(--btn-Radius);
-    border: solid 2px var(--Green-Color);
-    transition: .5s;
-    padding: 1rem;
-}
+
 
 .operation-card:hover {
     box-shadow: var(--shadow);
@@ -87,7 +76,7 @@ html {
 .operation-card__text-CTA {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .operation-card__text-CTA h3 {
@@ -114,7 +103,7 @@ html {
     margin: 1rem 0rem;
     position: relative;
     height: 80vh;
-    background-image: url('../img/operations-Background.webp');
+    background-image: url('../Thumbnails/services.png');
     background-size: cover;
     background-position: center;
     color: white;
