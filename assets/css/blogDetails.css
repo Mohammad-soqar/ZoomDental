@@ -1,0 +1,150 @@
+:root {
+    --shadow-Green: 0px 4px 16px 0px #0b896c43;
+    --shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+    --Green-Color: #00CC7B;
+    --Red-Color: #F25F5C;
+    --Dark-Color: #2e3a3d;
+    --btn-Radius: 22px;
+    --btn-Padding: .7rem 2rem;
+    --black-text: #292929;
+}
+
+.blog-banner {
+    background-image: url('../img/bodyimg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    height: 60vh;
+    padding: 50px 0;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.blog-banner__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+
+.content p,
+.content div,
+.content span,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content label {
+    font-family: MontserratMedium;
+    color: #282828 !important;
+    line-height: 1.5;
+    font-family: inter;
+}
+
+.titles {
+    font-size: 1.5em;
+}
+
+.blog-content-section {
+    display: flex;
+    gap: 3rem;
+    margin: 2rem 5rem;
+}
+
+.main-content {
+    flex: 3;
+}
+
+
+.comments-section {
+    margin-top: 40px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.related-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-posts ul li a {
+    text-decoration: none;
+    color: #0B896B;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .blog-content-section {
+        flex-direction: column;
+    }
+
+    .blog-content-section {
+        display: flex;
+        gap: 3rem;
+        margin: 2rem 1rem;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+    }
+}
+
+/* blog style */
+
+#blogTitle {
+    color: var(--Green-Color);
+    font-size: 2em;
+    margin: 3em 0 0 1em;
+    text-align: center;
+}
+
+.blog-post h4 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+.blog-post ul {
+    list-style: disc;
+    padding: 0;
+    margin: 1em 0 1em 2em;
+}
+
+.blog-post li span {
+    font-weight: 800;
+}
+
+.blog-post li,
+.blog-post ol {
+    margin-bottom: .5em;
+}
+
+.blog-post ol {
+    list-style: decimal;
+    padding: 0;
+    margin: 1em 0 1em 2em;
+}
+
+.blog-post ol span {
+    font-weight: 800;
+}
+
+.blog-post p span {
+    font-size: 1.3em;
+    font-weight: 800;
+}
